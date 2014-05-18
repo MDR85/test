@@ -1,0 +1,198 @@
+/*reset*/
+*{margin:0;padding:0;}
+ul{list-style:none;}
+/*tags HTML5*/
+section,header,footer,aside,article{display:block;}
+@font-face {
+	font-family: alte;
+	src:url('AlteHaasGroteskRegular.ttf');
+}
+img {border:none;}
+.clear {
+	width:100%;
+	clear:both;
+}
+a{
+	color:#1209EB;
+	text-decoration:none;
+	font-family:'alte';
+	font-size:18px;
+}
+a:focus {
+	border:none;
+	outline:none;
+}
+.copyright {
+	color:#000;
+	text-shadow:#fff;
+	font-weight:bold;
+}
+p {
+	margin-bottom:6px;
+}
+h1,h2,h3,h4,h5,h6 {
+	margin-bottom:10px;
+	font-size:17px;
+}
+h3{
+	font-size:14px;
+}
+h4{
+	color:#93be3d;
+	font-size:12px;
+}
+input,textarea,select {
+	-webkit-border-radius:5px;
+	border:1px #ccc solid;
+	font:12px Verdana, Geneva, sans-serif;
+}
+body{
+	/*background: url(../image/bg.jpg);*/
+	background-color: #59b556;
+	font:14px/16px "Book Antiqua", Palatino, serif, Geneva, sans-serif;
+	color:#fff;
+}
+#geral {
+	padding:2px;
+}
+header {
+	margin-top:8px;
+	height:30px;
+	background:url("../image/bg_header.png") 23px center no-repeat;
+	position:relative;
+	margin-bottom:15px;
+	text-align:center;
+	font-size:22px;
+	font-weight:900;
+}
+header h1 {
+	background-color:#fff;
+	width:100%;
+	
+	text-indent:-9999px;
+	position:absolute;
+	top:15px;
+}
+header h1 a{
+	display:block;
+	width:124px;
+	height:110px;
+	text-indent:-9999px;
+}
+header .btn_home {
+	width:50px;
+	height:42px;
+	background:url(../image/freccia.png);
+	position:absolute;
+	right:15px;
+	top:15px;
+}
+header .btn_home a {
+	display:block;
+	width:48px;
+	height:48px;
+}
+
+section{
+	margin-bottom:20px;
+	padding:0 4px;
+	text-align:justify;
+	font-family: tahoma;
+}
+section .menu li{
+	/*background:url(../image/bg_menu.jpg);*/
+	background-color:#00b4f1;
+	-webkit-border-radius:8px;
+}
+section .menu li a{	
+	height:40px;
+	line-height:40px;
+	text-indent:10px;
+	display:block;
+	-webkit-border-radius:8px;
+	margin-bottom:8px;
+	text-align:center;
+	font-family: "Book Antiqua", Palatino, serif;
+	text-shadow:1px 1px 1px #ccc;
+	font-weight:bold;
+	border:2px #000 solid;
+}
+section .menu li a:hover{
+	color:#fff;
+	text-shadow:1px 1px 1px #000;
+}
+footer {
+	padding:5px;
+	position:relative;
+	text-align:center;
+	color:#332824;
+}
+address {
+	font-style:normal;
+	font-size:11px;
+	padding:5px 0;
+	font-family: Verdana, Geneva, sans-serif;
+	border:0px red solid;
+	color:#000;
+}
+.contatto {
+	padding:8px 0 8px 0;
+	border-top:1px #ece5d3 dotted;
+
+}
+.contatto p{
+	text-align:left;
+	color:#fff;
+	border:0px white solid;
+	float:left;
+	font-size:20px;
+	line-height:30px;
+}
+.contatto p img{
+	vertical-align:middle;
+}
+.contatto .redes{
+	text-align:right;
+	padding:0px 0 0 0;
+	border:0px red solid;
+}
+.contatto .redes a{
+	margin-left:4px;
+}
+.tlt {
+	color:#16CA33;
+	text-shadow:1px 1px 1px #000;
+	padding-bottom:5px;
+}
+h2.tlt a {
+	font-family:verdana;
+	font-size:17px;
+}
+.sub_tlt {
+	color:#93be3d;
+	padding-bottom:5px;
+}
+
+.mini_animacao {
+	height:110px;
+	position:relative;
+	background:url(../image/bg_mobile.jpg) center bottom no-repeat;
+}
+@-webkit-keyframes logo{
+	0% {
+	top: 0px;
+	}
+    100% {
+	top: 10px;
+	}
+}
+
+.mail{
+	font-size:13px;
+}
+.mail a {
+	color:#000;
+	font-size:13px;
+	font-family:tahoma;
+	
+}
